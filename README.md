@@ -5,7 +5,9 @@
    Download the project, open with Microsoft Visual Studio and with the code opened you can click Ctrl+F5 or F5 to start the project, automatically the project will open a swagger page where you can upload your file directly clicking in "POST /upload" and then clicking the button "Try it out". When you upload your file .csv you can click "Execute" and you will see the JSON output.
 
    You can also use ***curl***, see an example below:
-       > curl -X POST "https://localhost:44376/upload" -H  "accept: */*" -H  "Content-Type: multipart/form-data" -F "file=@username.csv;type=text/csv"
+   
+    > curl -X POST "https://localhost:44376/upload" -H  "accept: */*" -H  "Content-Type: multipart/form-data" -F "file=@username.csv;type=text/csv"
+   
    Or use any other application as Insomnia or Postman
 
 # Author 
